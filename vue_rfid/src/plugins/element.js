@@ -1,0 +1,28 @@
+import Vue from 'vue'
+import { Avatar, Dialog, Pagination, Tooltip, Switch, Table, TableColumn, Row, Col, Card, Button, Form, FormItem, Input, Message, Header, Container, Aside, Main, Menu, Submenu, MenuItem, MenuItemGroup, Breadcrumb, BreadcrumbItem } from 'element-ui'
+
+Vue.use(Avatar)
+Vue.use(Dialog)
+Vue.use(Pagination)
+Vue.use(Tooltip)
+Vue.use(Switch)
+Vue.use(Button)
+Vue.use(FormItem)
+Vue.use(Form)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Header)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(Menu)
+Vue.use(BreadcrumbItem)
+Vue.use(Breadcrumb)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(TableColumn)
+Vue.use(Table)
+Vue.prototype.$message = Message
